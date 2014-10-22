@@ -12,7 +12,7 @@
 
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     
-    <%= stylesheet_link_tag 'main.css' %>
+    <%= stylesheet_link_tag 'styles.css' %>
     <%= javascript_include_tag 'vendor/modernizr-2.8.3.min' %>
   </head>
   <body>
@@ -33,8 +33,8 @@
     <% end %>
 
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/#{jquery_version}/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-#{jquery_version}.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/<%= jquery_version %>/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-<%= jquery_version %>.min.js"><\/script>')</script>
     <%= javascript_include_tag 'plugins', 'main' %>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
