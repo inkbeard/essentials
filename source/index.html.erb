@@ -1,0 +1,15 @@
+---
+layout: 'build'
+---
+
+<h2>Initial Release</h2>
+<% data.pages.each do |item| %>
+  <h3><%= item.title %></h3> 
+  <% if item.pages %>
+    <ul>      
+      <% item.pages.each do |i| %>
+        <li><%= link_to i.title, 'pages/' + i.link %></li>        
+      <% end %>
+    </ul>    
+  <% end %>
+<% end %>

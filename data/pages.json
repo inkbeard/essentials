@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Template Name One",
+    "pages": [
+      {
+        "title" : "test page one",
+        "link" : "test-page-one.html"
+      },
+      {
+        "title" : "test page two",
+        "link" : "test-page-two.html"
+      }
+    ]
+  },
+  {
+    "title": "Template Name Two",
+    "pages": [
+      {
+        "title" : "test page one",
+        "link" : "test-page-one.html"
+      },
+      {
+        "title" : "test page two",
+        "link" : "test-page-two.html"
+      }
+    ]
+  }
+]

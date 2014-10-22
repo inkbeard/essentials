@@ -1,0 +1,47 @@
+@import 'normalize',
+        'vars',
+        'compass/css3',
+        'compass/utilities/general/clearfix',
+        'compass/css3/transition';
+
+$blue : #0065bd;
+$red  : #c00;
+
+// Global styles
+
+  html,
+  body { font: 14px $font-base; }
+
+  html { }
+
+  #page-container {
+    width: 96%;
+    padding: 0 2%;
+    margin: 0 auto;
+  }
+
+// Typography
+
+  h1, h2, h3, h4, h5 { margin-top: 0; }
+
+  h1 { }
+
+  h2 { }
+
+  h3 { }
+
+  p { margin: 0 0 1em 0; }
+
+// Form styles
+
+// Header styles
+
+  header { }
+
+// Content styles
+
+  main { }
+
+// Footer styles
+
+  footer { }
